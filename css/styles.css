@@ -1,0 +1,217 @@
+.container {
+    /* text-align: center; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.title {
+    font-size: clamp(1.25rem, 0.993rem + 1.176vi, 3.125rem);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.test-1 {
+    display: flex;
+    align-items: center;
+    row-gap: 25px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dada {
+    color: red;
+}
+
+.personCard {
+    padding: 20px;
+    box-shadow: 8px 8px 20px gray;
+    border-radius: 20px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnDel {
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    /* padding: 10px 50px; */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.btnDel:hover {
+    transform: scale(1.1);
+}
+
+#opacity {
+    display: none;
+    background-color: rgba(0, 0, 0);
+    height: 100vh;
+    z-index: 0;
+}
+
+
+.game__contact {}
+
+.modal {
+    z-index: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 550px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.modal-content {}
+
+.btn-block {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+}
+
+#reset {
+    background-color: none;
+    border: none;
+    padding: 25px 100px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+#reset:hover {
+    color: rgb(61, 61, 61);
+    border-radius: 10px;
+    background-color: rgb(171, 171, 171);
+}
+
+#canceledReset {
+    border: none;
+    color: none;
+    background-color: none;
+    padding: 25px 100px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+#canceledReset:hover {
+    color: rgb(61, 61, 61);
+    border-radius: 10px;
+    background-color: rgb(171, 171, 171);
+}
+
+.res {
+    display: none;
+}
+
+#imgRedacted {
+    background-image: url('https://w7.pngwing.com/pngs/235/163/png-transparent-ghost-drawing-halloween-ghost-pics-white-marine-mammal-fictional-character-thumbnail.png');
+}
+
+
+.hero {
+    display: block;
+}
+
+.category {
+    display: flex;
+    columns: 30px;
+}
+
+.exp__list-item {
+    margin-top: 10px;
+    max-width: 600px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.delete__btn {
+    margin: 0px 0px 0px 10px;
+    background-color: rgb(193, 55, 55);
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#element1 {
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    align-items: center;
+    display: flex;
+}
+
+#element2 {
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    align-items: center;
+    display: flex;
+}
+
+#element3 {
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    background-color: green;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+#slider {
+    text-align: center;
+    width: 400px;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.dotted-container {
+    display: flex;
+    justify-self: center;
+    column-gap: 10px;
+    transform: translate(-2%);
+}
+
+.dotted__item {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: gray;
+    transition: all 0.3;
+}
+
+.dotted__item:hover {
+    transform: scale(1.2);
+}
+
+.active {
+    background-color: blue;
+}
